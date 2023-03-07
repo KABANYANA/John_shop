@@ -1,0 +1,457 @@
+/* font-family: 'Quicksand', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.top-bar{
+    position: fixed;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 2fr 10fr 0.4fr 1fr;
+    align-items: center;
+    z-index: 1;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    color: rgb(24, 22, 22);
+    
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    
+}
+
+nav ul li{
+    margin-right: 20px;
+    
+}
+nav ul li a{
+    color: rgb(14, 12, 12);
+    text-decoration: none;
+}
+
+.logo h2{
+    color: rgb(10, 139, 179);
+
+}
+.search{
+    position: relative;
+    width: 60%;
+    justify-self: center;
+    
+}
+.search input{
+
+    width: 100%;
+    height: 40px;
+    padding: 0 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(207, 199, 199);
+}
+.user{
+    position: relative;
+    width: 50px;;
+    height: 50px;
+
+}
+
+
+
+.icon{
+    height: 20px;
+    width:20px;
+    cursor: pointer;
+    
+}
+.icon2{
+    height: 20px;
+    width: 20px;
+    color: black;
+}
+input[id="search"]{
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+}
+.main{
+    position: absolute;
+    top: 60px;
+    width: calc(100% - 60px);
+    left:50px;
+    min-height: calc(100vh - 60px);
+    background: white;
+}
+.main h1{
+    padding-top: 20px;
+    text-align: center;
+}
+.main p{
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+}
+.main h2{
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+}
+/* .cards{
+    width: 100%;
+    
+    padding: 35px 20px;
+    display: grid;
+   
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+} */
+.cards .card1{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('1.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card2{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('13.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card3{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('3.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card4{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('4.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card5{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('5.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card6{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('6.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card7{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('7.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card8{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('8.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card9{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('9.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card10{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('10.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card11{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('11.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card12{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('12.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card13{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('13.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card14{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('1.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card15{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('15.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card16{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('16.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card17{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('17.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card18{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('18.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card19{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('19.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card20{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('20.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card21{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('23.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card22{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('1.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card23{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('23.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card24{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('33.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card25{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('30.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card26{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('26.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card27{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('31.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.cards .card28{
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    background-image: url('32.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+
+}
+.number{
+    font-size: 20px;
+    font-weight: 8000;
+    color: rgb(0, 0, 0);
+}
+.card-name{
+    color: rgb(224, 54, 216);
+    font-weight: 800;
+}
+.cards{
+    width: 100%;
+    
+    padding: 35px 20px;
+    display: grid;
+   
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    cursor: pointer;
+}
+button{
+    height: 60px;
+    width:90px;
+    background-color: rgb(192, 199, 199);
+    border-radius: 10px;
+    margin-left: 46%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
