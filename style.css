@@ -98,17 +98,21 @@ input[id="search"]{
 .main h1{
     padding-top: 20px;
     text-align: center;
+    background-color: antiquewhite;
 }
 .main p{
     text-align: center;
     font-style: italic;
     padding-top: 20px;
+    background-color: antiquewhite;
 }
 .main h2{
     text-align: center;
     font-style: italic;
     padding-top: 20px;
+    background-color: antiquewhite;
 }
+
 /* .cards{
     width: 100%;
     
@@ -455,3 +459,4 @@ button{
     margin-bottom: 3%;
     cursor: pointer;
 }
+ 
